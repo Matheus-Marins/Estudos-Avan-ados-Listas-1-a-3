@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main()
+{
+int a,b,x;
+
+printf("digite o valor de a: ",a);
+scanf("%d",&a);
+
+printf("digite o valor de b: ",b);
+scanf("%d",&b);
+
+x=a-b;
+
+printf("o quadrado da diferença de a e b é: %d",x*x);
+}
