@@ -1,0 +1,18 @@
+#include <stdio.h>
+void main()
+{
+float prestação,valor,taxa,tempo;
+
+printf("digite o valor: ",valor);
+scanf("%f",&valor);
+
+printf("digite o taxa: ",taxa);
+scanf("%f",&taxa);
+
+printf("digite o tempo: ",tempo);
+scanf("%f",&tempo);
+
+prestação=(valor+(valor*(taxa/100)*tempo));
+
+printf("o valor de sua prestação é: %f",prestação);
+}
