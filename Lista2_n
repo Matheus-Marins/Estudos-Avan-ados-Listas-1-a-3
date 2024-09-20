@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<math.h>
+void main ()
+
+{
+    int A, B, C, soma;
+
+    printf ("Digite o valor de A: ");
+    scanf ("%d", &A);
+
+    printf ("Digite o valor de B: ");
+    scanf ("%d", &B);
+
+    printf ("Digite o valor de C: ");
+    scanf ("%d", &C);
+
+    soma=A+B+C;
+
+    if (soma>=100)
+    {
+        printf ("A soma dos tres valores e igual a: %d , consequentemente, maior ou igual a 100", soma);
+    }
+
+    else
+    {
+        printf ("A soma dos tres valores e igual a: %d , consequentemente, menor que 100", soma);
+    }
+}
