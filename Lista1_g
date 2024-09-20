@@ -1,0 +1,51 @@
+#include <stdio.h>
+void main()
+{
+float a,b,c,d;
+
+printf("digite o valor de a: ",a);
+scanf("%f",&a);
+
+printf("digite o valor de b: ",b);
+scanf("%f",&b);
+
+printf("digite o valor de c: ",c);
+scanf("%f",&c);
+
+printf("digite o valor de d: ",d);
+scanf("%f",&d);
+
+//Soma dos Valores
+float add_ab,add_ac,add_ad,add_bc,add_bd,add_cd;
+
+add_ab=a+b;
+add_ac=a+c;
+add_ad=a+d;
+add_bc=b+c;
+add_bd=b+d;
+add_cd=c+d;
+
+printf("a soma de a e b é: %f\n",add_ab);
+printf("a soma de a e c é: %f\n",add_ac);
+printf("a soma de a e d é: %f\n",add_ad);
+printf("a soma de b e c é: %f\n",add_bc);
+printf("a soma de b e d é: %f\n",add_bd);
+printf("a soma de c e d é: %f\n\n",add_cd);
+
+//Produto dos Valores
+float prod_ab,prod_ac,prod_ad,prod_bc,prod_bd,prod_cd;
+
+prod_ab=a*b;
+prod_ac=a*c;
+prod_ad=a*d;
+prod_bc=b*c;
+prod_bd=b*d;
+prod_cd=c*d;
+
+printf("o produto de a e b é: %f\n",prod_ab);
+printf("o produto de a e c é: %f\n",prod_ac);
+printf("o produto de a e d é: %f\n",prod_ad);
+printf("o produto de b e c é: %f\n",prod_bc);
+printf("o produto de b e d é: %f\n",prod_bd);
+printf("o produto de c e d é: %f\n",prod_cd);
+}
