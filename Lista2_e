@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+float A, B, C, X1, X2, Del;
+printf ("Digite o valor de A: ");
+scanf ("%f" , &A);
+
+printf ("Digite o valor de B: ");
+scanf ("%f" , &B);
+
+printf ("Digite o valor de C: ");
+scanf ("%f" , &C);
+
+Del=((B*B)-4*A*C);
+
+if (Del<0) 
+{
+printf ("inválido \n");
+}
+
+else if (Del==0) 
+{
+X1=(-B)/(2*A);
+printf ("O valor de X e: %.2f", X1);
+}
+
+else 
+{
+X1=(-B+sqrt(Del))/(2*A);
+X2=(-B-sqrt(Del))/(2*A);
+printf ("O valor das raízes sao: X1=%.2f e X2=%.2f", X1, X2);
+}
+}
