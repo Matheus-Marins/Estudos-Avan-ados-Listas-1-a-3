@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main ()
+{
+    int a, b, c;
+    printf ("Digite o valor de a:", a);
+    scanf ("%d",&a);
+    printf ("Digite o valor de b:", b);
+    scanf ("%d",&b);
+    if (a==b)
+    {
+        printf ("invalido");
+    }
+    else if (b<a)
+    {
+        c=a-b;
+        printf ("Diferenca: %d", c);
+    }
+    else
+    {
+        c=b-a;
+        printf ("Diferenca: %d", c);
+    }
+}
