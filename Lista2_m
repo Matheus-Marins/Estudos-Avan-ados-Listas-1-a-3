@@ -1,0 +1,28 @@
+#include<stdio.h>
+void main ()
+
+{
+    char Sexo;
+    char Nome[100];
+
+    printf ("Digite o sexo (M / F): ", Sexo);
+    scanf ("%s", &Sexo);
+
+    printf ("Digite o nome: ", Nome);
+    scanf ("%s", &Nome);
+
+    if (Sexo=='M')
+     {
+         printf ("Ilmo. Sr. %s", Nome);
+     }
+
+     else if (Sexo=='F')
+     {
+         printf ("Ilma. Sra. %s", Nome);
+     }
+
+     else
+     {
+         printf ("Sexo informado invalido", Nome);
+     }
+}
