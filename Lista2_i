@@ -1,0 +1,82 @@
+#include<stdio.h>
+#include<math.h>
+void main ()
+
+{
+    float A, B, C, D, E;
+
+    printf ("Digite o valor de A: ");
+    scanf ("%f", &A);
+
+    printf ("Digite o valor de B: ");
+    scanf ("%f", &B);
+
+    printf ("Digite o valor de C: ");
+    scanf ("%f", &C);
+
+    printf ("Digite o valor de D: ");
+    scanf ("%f", &D);
+
+    scanf ("%f", &E);
+    printf ("Digite o valor de E: ");
+
+    printf ("O maior dos valores: ");
+
+    if (A>B && A>C && A>D && A>E)
+    {
+        printf ("%.1f \n", A);
+
+    }
+
+    else if (B>C && B>D && B>E)
+    {
+        printf ("%.1f \n", B);
+
+    }
+
+    else if (C>D && C>E)
+    {
+        printf ("%.1f \n", C);
+
+    }
+
+    else if (D>E)
+    {
+        printf ("%.1f \n", D);
+    }
+
+    else
+    {
+        printf ("%.1f \n", E);
+    }
+
+    printf ("O menor dos valores: ");
+
+    if (A<B && A<C && A<D && A<E)
+    {
+        printf ("%.1f \n", A);
+
+    }
+
+    else if (B<C && B<D && B<E)
+    {
+        printf ("%.1f \n", B);
+
+    }
+
+    else if (C<D && C<E)
+    {
+        printf ("%.1f \n", C);
+
+    }
+
+    else if (D<E)
+    {
+        printf ("%.1f \n", D);
+    }
+
+    else
+    {
+        printf ("%.1f \n", E);
+    }
+}
