@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<math.h>
+void main ()
+
+{
+    int A, resultado;
+
+    printf ("Digite o valor de A: ");
+    scanf ("%d", &A);
+
+    resultado=A+A;
+
+     if (resultado>=30)
+    {
+        printf ("O resultado da multiplicação e: %d, logo, maior ou igual a 30", resultado);
+    }
+
+     else
+     {
+         printf ("Resultado menor que 30");
+     }
+}
