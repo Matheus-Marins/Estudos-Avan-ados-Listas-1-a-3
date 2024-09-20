@@ -1,0 +1,18 @@
+#include <stdio.h>
+void main()
+{
+float comprimento,altura,largura,volume;
+
+printf("digite o valor do comprimento: ",comprimento);
+scanf("%f",&comprimento);
+
+printf("digite o valor de altura: ",altura);
+scanf("%f",&altura);
+
+printf("digite o valor de largura: ",largura);
+scanf("%f",&largura);
+
+volume=comprimento*largura*altura;
+
+printf("o volume é: %f",volume);
+}
