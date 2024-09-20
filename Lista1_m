@@ -1,0 +1,18 @@
+#include <stdio.h>
+void main()
+{
+float a,b,c,x;
+
+printf("digite o valor de a: ",a);
+scanf("%f",&a);
+
+printf("digite o valor de b: ",b);
+scanf("%f",&b);
+
+printf("digite o valor de c: ",c);
+scanf("%f",&c);
+
+x=((a*a)+(b*b)+(c*c));
+
+printf("a soma dos quadrados dos números é: %f",x);
+}
