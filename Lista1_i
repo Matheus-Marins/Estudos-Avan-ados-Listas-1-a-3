@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main()
+{
+int x;
+
+printf("digite o valor de x: ",x);
+scanf("%d",&x);
+
+printf("x ao quadrado será: %d",x*x);
+}
