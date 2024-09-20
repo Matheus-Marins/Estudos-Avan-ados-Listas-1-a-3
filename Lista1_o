@@ -1,0 +1,25 @@
+#include <stdio.h>
+void main()
+{
+float a,b,c,d,p,s;
+
+printf("digite o valor de a: ",a);
+scanf("%f",&a);
+
+printf("digite o valor de b: ",b);
+scanf("%f",&b);
+
+printf("digite o valor de c: ",c);
+scanf("%f",&c);
+
+printf("digite o valor de d: ",d);
+scanf("%f",&d);
+
+//Produto de A e C
+p=a*c;
+printf("o produto de A e C é: %f\n",p);
+
+//Soma de B e D
+s=b+d;
+printf("a soma de B e D é: %f",s);
+}
