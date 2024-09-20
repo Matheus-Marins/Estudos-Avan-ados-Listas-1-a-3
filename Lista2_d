@@ -1,0 +1,43 @@
+#include<stdio.h>
+void main ()
+
+{
+    float N1, N2, N3, N4, MD1, MD2, NE;
+    printf ("Digite o valor de N1:", N1);
+    scanf ("%f",&N1);
+
+    printf ("Digite o valor de N2:", N2);
+    scanf ("%f",&N2);
+
+    printf ("Digite o valor de N3:", N3);
+    scanf ("%f",&N3);
+
+    printf ("Digite o valor de N4:", N4);
+    scanf ("%f",&N4);
+
+    MD1=(N1+N2+N3+N4)/4;
+
+    if (MD1>=7)
+    {
+        printf ("Media: %.1f \nAPROVADO!!!", MD1);
+    }
+
+    else
+    {
+        printf ("Digite o valor de NE:", NE);
+        scanf ("%f",&NE);
+
+        MD2=(MD1+NE)/2;
+
+        if (MD2>=7)
+        {
+            printf ("Media: %.1f \nAPROVADO COM EXAME!", MD2);
+        }
+        else
+        {
+        printf ("Media: %.1f \nREPROVADO :( ", MD2);
+        }
+
+    }
+
+}
