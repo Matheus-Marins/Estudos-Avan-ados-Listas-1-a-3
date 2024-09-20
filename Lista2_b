@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main ()
+
+{
+    int n;
+    printf ("Insira o valor de n: ", n);
+    scanf ("%d", &n);
+    if (n>=0)
+    {
+        printf ("%d", n);
+    }
+    else
+    {
+        n=n*(-1);
+        printf ("o valor positivo de n sera: %d", n);
+    }
+}
